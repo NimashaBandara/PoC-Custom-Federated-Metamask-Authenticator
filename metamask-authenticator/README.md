@@ -18,7 +18,7 @@ This authenticator is developed as a PoC to research conducted on "Integrating W
 10. Select created identity provider in Local & Outbound Authentication configuration of your service provider.
 
 mappings in web. xml look like below:
-"
+``` 
 <servlet>
 <servlet-name>metamask.do</servlet-name>
 <jsp-file>/metamask.jsp</jsp-file>
@@ -26,4 +26,5 @@ mappings in web. xml look like below:
 <servlet-mapping>
 <servlet-name>metamask.do</servlet-name>
 <url-pattern>/metamask.do</url-pattern>
-</servlet-mapping>"
+</servlet-mapping>
+```
